@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE config [
+  <!ELEMENT config (database)>
+  <!ELEMENT database (host,user,password,database_name)>
+  <!ELEMENT host (#PCDATA)>
+  <!ELEMENT user (#PCDATA)>
+  <!ELEMENT password (#PCDATA)>
+  <!ELEMENT database_name (#PCDATA)>
+]>
+<config>
+    <database>
+        <host>localhost</host>
+        <user>root</user>
+        <password></password>
+        <database_name>gestion_projet_db</database_name>
+    </database>
+</config>

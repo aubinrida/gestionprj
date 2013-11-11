@@ -1,0 +1,131 @@
+html{
+	font-family: arial;
+	font-size: 16px;
+}
+.main #nom_projet{
+	margin-top: 100px;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16pt;	
+	text-decoration: underline;
+	color: rgb(52, 83, 102);
+}
+.main #desc_projet{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16pt;	
+	color: rgb(52, 83, 102);
+}
+.main #client_projet{
+	text-align: center;
+	padding: 5px;
+	font-size: 15pt;	
+	color: rgb(52, 83, 102);
+}
+.main #suivi_projet{
+	text-align: center;
+}
+.main #graphe{
+	width: 500px;
+	height: 200px;
+	background-color: grey;
+	margin: auto;
+	padding: 5px;
+}
+.main #liste_membre table{
+	margin: auto;
+	border-collapse: collapse;
+}
+.main #liste_membre td, th{
+	padding: 10px;
+	border: 1px black solid;
+}
+.main #liste_membre_titre{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14pt;	
+	color: rgb(52, 83, 102);
+}
+
+.main #liste_tache_nncrt_titre{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14pt;	
+	color: rgb(52, 83, 102);
+}
+.main #liste_tache_nncrt table{
+	margin: auto;
+	border-collapse: collapse;
+}
+.main #liste_tache_nncrt tbody{
+	font-size: 14px;
+}
+.main #liste_tache_nncrt td, th{
+	padding: 10px;
+	border: 1px black solid;
+}
+
+.main #liste_tache_crt_titre{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14pt;
+	color: rgb(52, 83, 102);	
+}
+.main #liste_tache_crt table{
+	margin: auto;
+	border-collapse: collapse;
+}
+.main #liste_tache_crt tbody{
+	font-size: 14px;
+}
+.main #liste_tache_crt, .main #liste_tache_crt, .main #liste_membre {
+	margin: 10px;
+}
+
+.main #liste_tache_crt td, th{
+	padding: 10px;
+	border: 1px black solid;
+}
+.main #nom_tache{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16pt;	
+	text-decoration: underline;
+	color: rgb(52, 83, 102);
+}
+.main .tache_critique{
+	color: red;
+}
+.main .tache_nncritique{
+	color: green;
+}
+.main #compte_recomp table{
+	margin: auto;
+	border-collapse: collapse;
+	min-width: 300px;
+	text-align: center;	
+}
+.main #compte_recomp td, th{
+	padding: 10px;
+	border: 1px black solid;
+}
+.main .empty_row td{
+	text-align: center;
+}
+.main #compte_recomp_ttr{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14pt;	
+	color: rgb(52, 83, 102);
+}
+#form{
+	margin: auto;
+	width: 400px;
+}

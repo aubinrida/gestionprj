@@ -1,0 +1,131 @@
+html{
+	background-color: #EDEAE3;
+}
+body{
+	margin: 0;
+}
+.main a{
+	color: rgba(255,255,255,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+	text-decoration: none;
+}
+.main a:hover{
+	color: #fff;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+}
+
+.main #head{
+	background-color: rgb(108, 145, 182);
+	width: 100%;
+	height:66px
+}
+.main #titre{
+	position: absolute;
+	padding: 20px;
+	font-size: 1.1em;		
+}
+.main #compte{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	font-size: 1.1em;			
+}
+.main #compte span, a{
+	padding: 5px;		
+}
+#links{
+	background-color: rgb(108, 145, 182);
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	width: 400px;
+	font-size: 1.3em;
+}
+#liste_tache_crt, #liste_tache_nncrt {
+	margin:10px;
+}
+
+.table_style thead tr {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #252b36) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #252b36 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#252b36');
+	background-color:#3d94f6;
+	border:1px solid #337fed;
+	color:rgb(235, 235, 235);
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}.table_style thead tr:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #252b36), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #252b36 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#252b36', endColorstr='#3d94f6');
+	background-color:#252b36;
+}.table_style thead tr:active {
+	position:relative;
+	top:1px;
+}
+
+.table_style tbody tr a {
+	color:rgb(0, 71, 111);
+}
+.table_style tbody tr:nth-child(even) {
+	-moz-box-shadow:inset 0px 1px 0px 0px #037beb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #037beb;
+	box-shadow:inset 0px 1px 0px 0px #037beb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dcecfb), color-stop(1, #adc8e3) );
+	background:-moz-linear-gradient( center top, #dcecfb 5%, #adc8e3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcecfb', endColorstr='#adc8e3');
+	background-color:#dcecfb;
+	border:1px solid #84bbf3;
+	color: #000;
+	font-family:arial;
+	font-weight: bold;
+	padding:6px 24px;
+	text-decoration:none;
+}.table_style tbody tr:nth-child(even):hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #adc8e3), color-stop(1, #dcecfb) );
+	background:-moz-linear-gradient( center top, #adc8e3 5%, #dcecfb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#adc8e3', endColorstr='#dcecfb');
+	background-color:#adc8e3;
+}.table_style tbody tr:nth-child(even):active {
+	position:relative;
+	top:1px;
+}
+
+
+.table_style tbody tr:nth-child(odd) {
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	color:#000;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}.table_style tbody tr:nth-child(odd):hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+	background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa');
+	background-color:#80b5ea;
+}.table_style tbody tr:nth-child(odd):active {
+	position:relative;
+	top:1px;
+}
